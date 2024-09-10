@@ -4,6 +4,8 @@
 
 This Python script processes academic abstracts to determine whether specific keyword groups are mentioned or connected to each abstract. It utilizes a model (via API) to analyze each abstract and outputs a result of ‘Y’ (Yes) or ‘N’ (No) based on the presence of the keywords in the text. It also retries if results are inconsistent or if errors occur, ensuring a reliable outcome.
 
+The project is based on LM studio. Please download the LM studio and the model.
+
 ## Features
 - Concurrency: Multiple abstracts are processed concurrently using multithreading (via ThreadPoolExecutor).
 - Progress Tracking: The script uses tqdm to provide progress tracking.
