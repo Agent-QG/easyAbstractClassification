@@ -13,7 +13,7 @@ The project is based on LM studio. Please download the LM studio and the model.
 - Result Consistency: The script performs multiple runs on each abstract (determined by run_times) to ensure result consistency.
 - Logging: Detailed logs of the processing steps are written to a log file.
 - Incremental Saves: Results are periodically saved to an Excel file to prevent data loss in the event of interruptions.
- -Customizable Configuration: The script is driven by a YAML configuration file (config.yaml) where users can specify parameters such as model name, keywords, temperature, and file paths.
+- Customizable Configuration: The script is driven by a YAML configuration file (config.yaml) where users can specify parameters such as model name, keywords, temperature, and file paths.
 
 # Usage
 
